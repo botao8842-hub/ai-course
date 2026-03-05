@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI入门实战课 - 9.9元</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            color: white;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        header .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .price {
+            display: inline-block;
+            background: #ff6b6b;
+            color: white;
+            padding: 10px 30px;
+            border-radius: 30px;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-top: 20px;
+            box-shadow: 0 4px 15px rgba(255,107,107,0.4);
+        }
+        
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .lesson-title {
+            font-size: 1.5em;
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .lesson-title span {
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            margin-right: 10px;
+        }
+        
+        h3 {
+            color: #764ba2;
+            margin: 20px 0 10px;
+        }
+        
+        ul, ol {
+            padding-left: 25px;
+        }
+        
+        li {
+            margin: 8px 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        
+        th {
+            background: #f8f9fa;
+            color: #667eea;
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            color: #e83e8c;
+        }
+        
+        .example {
+            background: #f8f9ff;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 10px 10px 0;
+        }
+        
+        .cta {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea764ba2 100%);
+            color: white;
+            0%, # padding: 18px 50px;
+            border-radius: 50px;
+            font-size: 1.3em;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0 10px 30px rgba(102,126,234,0.4);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(102,126,234,0.5);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: white;
+            opacity: 0.8;
+        }
+        
+        .highlight {
+            background: linear-gradient(120deg, #fef9c3 0%, #fde047 100%);
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+        
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            .card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI入门实战课</h1>
+            <p class="subtitle">普通人也能学会的AI技能课</p>
+            <div class="price">💰 9.9元</div>
+        </header>
+        
+        <div class="card">
+            <h2 class="lesson-title"><span>第1课</span>AI是什么？</h2>
+            
+            <h3>什么是AI？</h3>
+            <p>AI就是<span class="highlight">人工智能</span>，简单说：让机器像人一样思考和干活。</p>
+            
+            <h3>AI为什么是杠杆？</h3>
+            <ul>
+                <li>工资是<strong>加法</strong>：干一份活赚一份钱</li>
+                <li>AI是<strong>乘法</strong>：1小时干完别人10小时的活</li>
+            </ul>
+            
+            <h3>AI能做什么？</h3>
+            <ul>
+                <li>✍️ 写文章、写文案</li>
+                <li>🎨 画图、做设计</li>
+                <li>🎬 做视频、剪辑</li>
+                <li>💬 回答问题、当助理</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h2 class="lesson-title"><span>第2课</span>AI工具全家福</h2>
+            
+            <h3>免费工具推荐</h3>
+            <table>
+                <tr>
+                    <th>类型</th>
+                    <th>工具</th>
+                    <th>特点</th>
+                </tr>
+                <tr>
+                    <td>写作</td>
+                    <td>Kimi、ChatGPT</td>
+                    <td>回答问题、写文案</td>
+                </tr>
+                <tr>
+                    <td>画图</td>
+                    <td>可灵AI、Midjourney</td>
+                    <td>中文提示词/英文</td>
+                </tr>
+                <tr>
+                    <td>视频</td>
+                    <td>可灵AI、Pika</td>
+                    <td>文字生成视频</td>
+                </tr>
+                <tr>
+                    <td>配音</td>
+                    <td>剪映AI配音</td>
+                    <td>免费额度够用</td>
+                </tr>
+            </table>
+            
+            <h3>推荐组合</h3>
+            <ul>
+                <li>� beginner：可灵AI + 剪映</li>
+                <li>🚀 进阶：Midjourney + Runway</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h2 class="lesson-title"><span>第3课</span>AI写作实战</h2>
+            
+            <h3>提示词模板</h3>
+            <div class="example">
+                <code>请帮我写一段[短视频文案/文章]</code><br>
+                主题：[你的主题]<br>
+                风格：[幽默/专业/接地气]<br>
+                字数：[200字]
+            </div>
+            
+            <h3>例子</h3>
+            <div class="example">
+                <strong>输入：</strong><br>
+                请帮我写一段短视频文案<br>
+                主题：AI赚钱是普通人的杠杆<br>
+                风格：接地气、幽默<br>
+                字数：300字
+            </div>
+            
+            <h3>关键技巧</h3>
+            <ol>
+                <li><strong>说清楚</strong>要什么</li>
+                <li><strong>给例子</strong>参考风格</li>
+                <li><strong>多迭代</strong>不满意就改</li>
+            </ol>
+        </div>
+        
+        <div class="card">
+            <h2 class="lesson-title"><span>第4课</span>AI做图实战</h2>
+            
+            <h3>可灵AI提示词模板</h3>
+            <div class="example">
+                <code>中文：一个[角色]在[场景]做[动作]，[风格]</code>
+            </div>
+            
+            <h3>例子</h3>
+            <ul>
+                <li>一个男​人在办公室开会，动漫风格</li>
+                <li>一个女​人在厨房做饭，卡通风格</li>
+                <li>一个人在街上走路，搞笑风格</li>
+            </ul>
+            
+            <h3>工具地址</h3>
+            <ul>
+                <li>🎨 可灵AI：klingai.com</li>
+                <li>🎨 Midjourney：midjourney.com</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h2 class="lesson-title"><span>第5课</span>AI做视频</h2>
+            
+            <h3>制作流程</h3>
+            <ol>
+                <li><strong>写脚本</strong> - 用AI写</li>
+                <li><strong>生成画面</strong> - 用可灵AI/Pika</li>
+                <li><strong>配音</strong> - 剪映AI配音</li>
+                <li><strong>剪辑</strong> - 剪映app</li>
+            </ol>
+            
+            <h3>沙雕动画制作</h3>
+            <ol>
+                <li>用AI生成关键帧图片</li>
+                <li>用剪映串联成视频</li>
+                <li>添加配音和字幕</li>
+            </ol>
+            
+            <h3>变现方式</h3>
+            <ul>
+                <li>📺 短视频播放量收益</li>
+                <li>🎁 定制内容</li>
+                <li>👨‍🏫 教学收徒</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h2 class="lesson-title"><span>第6课</span>变现思路</h2>
+            
+            <h3>短视频变现</h3>
+            <ul>
+                <li>🎬 播放量收益（中视频计划）</li>
+                <li>🛒 带货（挂小黄车）</li>
+                <li>💰 直播打赏</li>
+            </ul>
+            
+            <h3>接单变现</h3>
+            <table>
+                <tr>
+                    <th>服务</th>
+                    <th>价格</th>
+                </tr>
+                <tr>
+                    <td>AI写文案</td>
+                    <td>50-200元/篇</td>
+                </tr>
+                <tr>
+                    <td>AI做图</td>
+                    <td>30-100元/张</td>
+                </tr>
+                <tr>
+                    <td>AI做视频</td>
+                    <td>100-500元/个</td>
+                </tr>
+            </table>
+            
+            <h3>知识付费</h3>
+            <ul>
+                <li>💰 9.9元引流课</li>
+                <li>💰 99元实战课</li>
+                <li>💰 199元训练营</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h2 class="lesson-title">📚 配套资源</h2>
+            
+            <h3>工具链接</h3>
+            <ul>
+                <li>🤖 可灵AI：klingai.com</li>
+                <li>🤖 Kimi：kimi.moonshot.cn</li>
+                <li>✂️ 剪映：jianying.com</li>
+                <li>🎨 Midjourney：midjourney.com</li>
+            </ul>
+        </div>
+        
+        <div class="cta">
+            <a href="#" class="cta-button">立即学习</a>
+            <p style="margin-top: 20px; color: #666;">扫码添加微信，了解更多</p>
+        </div>
+        
+        <footer>
+            <p>🤖 AI入门实战课 | 帮你开启AI赚钱之路</p>
+            <p>有问题随时问我！</p>
+        </footer>
+    </div>
+</body>
+</html>
